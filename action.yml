@@ -7,7 +7,7 @@ inputs:
 runs:
   using: "composite"
   steps: 
-    - run: echo Hello ${{ inputs.name }}.
+    - run: echo Hello ${{ inputs.userName }}.
       shell: bash
     - run: echo "Nice to meet you!"
       shell: pwsh
